@@ -1,0 +1,3 @@
+give @s minecraft:nether_star{display:{Name:'"§3Grab [Sneak to use]"',Lore:['"Teleports all your opponents in a 10 blocks radius to you,"','"removes half their XP and give them nausea"','" "','"YOU MUST HAVE 100xp TO USE IT"']}}
+give @s minecraft:iron_sword{display:{Name:'"§3Heavy Magnetic Broom"'},Unbreakable:1,HideFlags:127,Enchantments:[{id:"knockback",lvl:8}],Damage:-6}
+give @s minecraft:snowball{display:{Name:'"§3Energy Drainer"',Lore:['"Removes XP from players"','"within a close radius to the projectile"','" "','"The ball activates after 3 meters of fly"']},HideFlags:127,Enchantments:[{id:"unbreaking","lvl":1}]}

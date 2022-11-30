@@ -1,0 +1,7 @@
+execute if score welcome spacedump matches 34 run bossbar set minecraft:spacedump name "§3We§3lcome §3t§3o §5§l[§6§lS§6§lp§6§la§6§l§6§lce §6§lD§6§lu§b§lm§6§lp§5§l] §3by §5§lDub§6§l'n'§5§lCraft"
+execute if score welcome spacedump matches 36 run bossbar set minecraft:spacedump name "§3We§3lcome §3t§3o §5§l[§6§lS§6§lp§6§la§6§l§6§lce §6§lD§6§lu§6§lm§b§lp§5§l] §3by §5§lDub§6§l'n'§5§lCraft"
+execute if score welcome spacedump matches 38 run bossbar set minecraft:spacedump name "§3We§3lcome §3t§3o §5§l[§6§lS§6§lp§6§la§6§l§6§lce §6§lD§6§lu§6§lm§6§lp§b§l] §3by §5§lDub§6§l'n'§5§lCraft"
+execute if score welcome spacedump matches 40 run bossbar set minecraft:spacedump name "§3We§3lcome §3t§3o §5§l[§6§lS§6§lp§6§la§6§l§6§lce §6§lD§6§lu§6§lm§6§lp§5§l] §bb§3y §5§lDub§6§l'n'§5§lCraft"
+execute if score welcome spacedump matches 42 run bossbar set minecraft:spacedump name "§3We§3lcome §3t§3o §5§l[§6§lS§6§lp§6§la§6§l§6§lce §6§lD§6§lu§6§lm§6§lp§5§l] §3b§by §5§lDub§6§l'n'§5§lCraft"
+execute if score welcome spacedump matches 44 run bossbar set minecraft:spacedump name "§3We§3lcome §3t§3o §5§l[§6§lS§6§lp§6§la§6§l§6§lce §6§lD§6§lu§6§lm§6§lp§5§l] §3b§3y §b§lD§5§lub§6§l'n'§5§lCraft"
+execute if score welcome spacedump matches 46 run bossbar set minecraft:spacedump name "§3We§3lcome §3t§3o §5§l[§6§lS§6§lp§6§la§6§l§6§lce §6§lD§6§lu§6§lm§6§lp§5§l] §3b§3y §5§lD§b§lu§5§lb§6§l'n'§5§lCraft"

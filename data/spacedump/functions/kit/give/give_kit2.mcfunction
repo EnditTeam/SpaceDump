@@ -1,0 +1,7 @@
+give @s[scores={Kit=2},team=Blue] zombie_spawn_egg{display:{Name:'"§3Land Mine"'},HideFlags:127,Enchantments:[{id:"unbreaking","lvl":1}],EntityTag:{id:"armor_stand",Invisible:1b,Small:1b,NoGravity:1b,Silent:1b,Tags:["LandMine","LandMineBlue"]},CanPlaceOn:["#minecraft:mineable/pickaxe","redstone_lamp","#minecraft:impermeable"]}
+give @s[scores={Kit=2},team=Orange] zombie_spawn_egg{display:{Name:'"§3Land Mine"'},HideFlags:127,Enchantments:[{id:"unbreaking","lvl":1}],EntityTag:{id:"armor_stand",Invisible:1b,Small:1b,NoGravity:1b,Silent:1b,Tags:["LandMine","LandMineOrange"]},CanPlaceOn:["#minecraft:mineable/pickaxe","redstone_lamp","#minecraft:impermeable"]}
+give @s[scores={Kit=2},team=Green] zombie_spawn_egg{display:{Name:'"§3Land Mine"'},HideFlags:127,Enchantments:[{id:"unbreaking","lvl":1}],EntityTag:{id:"armor_stand",Invisible:1b,Small:1b,NoGravity:1b,Silent:1b,Tags:["LandMine","LandMineGreen"]},CanPlaceOn:["#minecraft:mineable/pickaxe","redstone_lamp","#minecraft:impermeable"]}
+
+give @s minecraft:bow{display:{Name:'"§3Magnetic §3Blower"'},Unbreakable:1,Enchantments:[{id:"punch",lvl:8},{id:"infinity",lvl:1}],HideFlags:127}
+give @s minecraft:arrow{display:{Name:'"§3Auto Turret [Sneak to use]"',Lore:['"Deploys an auto turret at your position"','"that will shoot at everyone close to it"','" "','"YOU MUST HAVE 100xp TO USE IT"']},HideFlags:127,Enchantments:[{id:"unbreaking","lvl":1}]}
+give @s minecraft:iron_shovel{display:{Name:'"§3Magnetic Spank"'},Unbreakable:1,HideFlags:127,Enchantments:[{id:"knockback",lvl:3}],Damage:-5}
