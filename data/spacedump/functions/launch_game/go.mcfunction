@@ -16,7 +16,7 @@ kill @e[type=armor_stand]
 summon minecraft:armor_stand 0 24.4 8 {CustomName:'"§5Join Spectator team"',CustomNameVisible:1,Invulnerable:1,Invisible:1,Marker:1,NoGravity:1,Tags:["join_spectator"]}
 scoreboard players set state spacedump 2
 
-tag @a[scores={GJ=1..}] add IG
+tag @a[tag=GJ] add IG
 scoreboard objectives setdisplay sidebar Credits
 
 

@@ -8,5 +8,4 @@ tag @e[type=skeleton,tag=newTurret] remove newTurret
 playsound entity.wither.shoot master @a[distance=..20] ~ ~ ~ 1 0.6 1
 particle enchant ~ ~1 ~ 1 1 1 1 350
 
-scoreboard players set @s Skill 0
 xp set @s 0 levels

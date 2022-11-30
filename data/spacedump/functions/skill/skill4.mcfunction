@@ -10,5 +10,4 @@ particle happy_villager ~ ~1 ~ 1 1 1 5 20
 particle portal ~ ~1 ~ 1 1 1 5 250
 playsound block.portal.travel master @a[distance=..10] ~ ~ ~ 1 2 1
 
-scoreboard players set @s Skill 0
 xp set @s 0 levels

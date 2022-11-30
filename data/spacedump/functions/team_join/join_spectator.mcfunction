@@ -1,3 +1,6 @@
 team join Spectator @s
 gamemode spectator @s
-tp @s 8 95 0 -90 0
+tp @s 0 90 0 0 90
+clear @s
+tag @s remove IG
+tag @s remove GJ

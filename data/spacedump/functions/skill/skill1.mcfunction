@@ -6,5 +6,4 @@ playsound block.portal.travel master @a[distance=..10] ~ ~ ~ 1 2 1
 playsound entity.enderman.hurt master @a[distance=..17] ~ ~ ~ 1 0.1 1
 particle crit ~ ~1 ~ 1 1 1 1 250
 
-scoreboard players set @s Skill 0
 xp set @s 0 levels

@@ -8,5 +8,4 @@ particle block cyan_terracotta ~ ~ ~ 2 0 2 1 300
 
 playsound minecraft:entity.firework_rocket.launch master @a[distance=..20] ~ ~ ~ 1 2 1
 
-scoreboard players set @s Skill 0
 xp set @s 0 levels

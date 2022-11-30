@@ -5,5 +5,5 @@ execute if entity @s[team=Orange] run team join Orange @e[type=skeleton,tag=newT
 execute if entity @s[team=Green] run team join Green @e[type=skeleton,tag=newTurret]
 tag @e[type=skeleton,tag=newTurret] remove newTurret
 
-tp @s[type=skeleton,tag=turretCD] 0 -5000 0
+tp @s[type=skeleton,tag=turretCD] 0 -100 0
 kill @s[type=skeleton,tag=turretCD]
