@@ -9,3 +9,12 @@
 - [x] green lost pas en spec
 - [x] kill mines si proche du spawn des teams
 - [x] spawn entitées en boucle ??
+- [ ] Réduire tous les sons
+- [x] kit random non commun
+- [x] buff grab
+- [x] Tuto tp
+- [ ] Tuto items spéciaux
+- [x] flêches dans le sol
+- [ ] tp spec
+- [ ] Tuto spawn XP Grinder
+

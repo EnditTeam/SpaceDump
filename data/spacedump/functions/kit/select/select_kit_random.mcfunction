@@ -1,3 +1,5 @@
+scoreboard players add kit_random spacedump 1
+execute if score kit_random spacedump matches 5.. run scoreboard players set kit_random spacedump 1
 execute if score kit_random spacedump matches 1 at @s run function spacedump:kit/select/select_kit1
 execute if score kit_random spacedump matches 2 at @s run function spacedump:kit/select/select_kit2
 execute if score kit_random spacedump matches 3 at @s run function spacedump:kit/select/select_kit3

@@ -37,16 +37,13 @@ kill @e[x=-54,y=54,z=-54,distance=..17,type=armor_stand]
 kill @e[x= 54,y=54,z= 54,distance=..17,type=armor_stand]
 kill @e[x=-54,y=54,z= 54,distance=..17,type=armor_stand]
 
-# scoreboard players add ESR Data 1
-# scoreboard players add @e[type=skeleton] CDS 1
-
 # Tp Spectator
 execute as @e[type=armor_stand,tag=join_spectator] at @s run particle dust 0.514 0 0.855 1 ~ ~-1 ~ 0.25 0.25 0.25 0 10
 execute as @e[type=armor_stand,tag=join_spectator] at @s positioned ~ ~-1.5 ~ as @a[distance=0..0.5] run function spacedump:team_join/join_spectator
 execute as @a[x=0,y=95,z=0,distance=0..2,gamemode=spectator] run function spacedump:team_join/leave_spectator
 
 # Fall in a hole : Blue, Green, Orange, Purple
-execute as @a[x=5,y=36,z=5,dx=12,dy=3,dz=12,gamemode=adventure] run function spacedump:game/hole/in_blue_hole
-execute as @a[x=5,y=36,z=-17,dx=12,dy=3,dz=12,gamemode=adventure] run function spacedump:game/hole/in_green_hole
-execute as @a[x=-17,y=36,z=-17,dx=12,dy=3,dz=12,gamemode=adventure] run function spacedump:game/hole/in_orange_hole
-execute as @a[x=-17,y=36,z=5,dx=12,dy=3,dz=12,gamemode=adventure] run function spacedump:game/hole/in_purple_hole
+execute as @a[x=5,y=36,z=5,dx=12,dy=3,dz=12,tag=IG] run function spacedump:game/hole/in_blue_hole
+execute as @a[x=5,y=36,z=-17,dx=12,dy=3,dz=12,tag=IG] run function spacedump:game/hole/in_green_hole
+execute as @a[x=-17,y=36,z=-17,dx=12,dy=3,dz=12,tag=IG] run function spacedump:game/hole/in_orange_hole
+execute as @a[x=-17,y=36,z=5,dx=12,dy=3,dz=12,tag=IG] run function spacedump:game/hole/in_purple_hole
