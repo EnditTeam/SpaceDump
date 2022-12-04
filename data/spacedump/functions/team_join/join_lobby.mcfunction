@@ -9,4 +9,4 @@ gamemode adventure @s
 clear @s
 xp set @s 0
 xp set @s 0 levels
-bossbar set spacedump players @s
+execute unless score state spacedump matches 2 run bossbar set spacedump players @a
