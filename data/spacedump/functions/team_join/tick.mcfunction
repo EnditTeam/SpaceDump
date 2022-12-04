@@ -2,13 +2,11 @@
 execute as @e[type=armor_stand,tag=join_orange] at @s run particle dust 0.894 0.612 0 1 ~ ~-1 ~ 0.25 0.25 0.25 0 10
 execute as @e[type=armor_stand,tag=join_blue  ] at @s run particle dust 0.11 0.698 0.933 1 ~ ~-1 ~ 0.25 0.25 0.25 0 10
 execute as @e[type=armor_stand,tag=join_green ] at @s run particle dust 0.027 0.855 0 1 ~ ~-1 ~ 0.25 0.25 0.25 0 10
-execute as @e[type=armor_stand,tag=join_spectator] at @s run particle dust 0.514 0 0.855 1 ~ ~-1 ~ 0.25 0.25 0.25 0 10
 
 # Tp Lobby => Team
 execute as @e[type=armor_stand,tag=join_orange] at @s positioned ~ ~-1.5 ~ as @a[distance=0..0.5] run function spacedump:team_join/join_orange
 execute as @e[type=armor_stand,tag=join_blue  ] at @s positioned ~ ~-1.5 ~ as @a[distance=0..0.5] run function spacedump:team_join/join_blue
 execute as @e[type=armor_stand,tag=join_green ] at @s positioned ~ ~-1.5 ~ as @a[distance=0..0.5] run function spacedump:team_join/join_green
-execute as @e[type=armor_stand,tag=join_spectator] at @s positioned ~ ~-1.5 ~ as @a[distance=0..0.5] run function spacedump:team_join/join_spectator
 
 # Tp Team => Lobby
 execute as @e[type=armor_stand,tag=leave_orange] at @s positioned ~ ~-1 ~ as @a[distance=0..0.5] run function spacedump:team_join/join_lobby

@@ -11,9 +11,8 @@ gamemode adventure @a[team=Orange]
 gamemode adventure @a[team=Blue]
 gamemode adventure @a[team=Green]
 
-# Kill armor stands and respawn the armor stand to spectate
+# Kill armor stands
 kill @e[type=armor_stand]
-summon minecraft:armor_stand 0 24.4 8 {CustomName:'"§5Join Spectator team"',CustomNameVisible:1,Invulnerable:1,Invisible:1,Marker:1,NoGravity:1,Tags:["join_spectator"]}
 scoreboard players set state spacedump 2
 
 tag @a[tag=GJ] add IG
