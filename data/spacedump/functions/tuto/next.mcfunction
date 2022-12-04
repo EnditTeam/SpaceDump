@@ -1,5 +1,6 @@
 execute unless score tuto spacedump matches -1000.. run scoreboard players set tuto spacedump 0
 execute unless score tuto spacedump matches ..0 run scoreboard players add tuto spacedump 1
+scoreboard players set tuto_tick spacedump 0
 execute if score tuto spacedump matches ..0 run function spacedump:tuto/start
 
 execute if score tuto spacedump matches 2 run function spacedump:tuto/tp2

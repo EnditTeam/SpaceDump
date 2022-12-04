@@ -18,6 +18,7 @@ execute as @a[x=-16,y=64,z=985,dx=32,dy=4,dz=32,team=!Mapmaking] run function sp
 execute as @a[team=Lobby,tag=GJ] run function spacedump:team_join/join_lobby
 
 execute unless score state spacedump matches 2 run function spacedump:welcome/tick
+execute if score state spacedump matches 2 if score tuto spacedump matches 1.. run function spacedump:welcome/tick
 execute if score state spacedump matches 1 run function spacedump:team_join/tick
 execute if score state spacedump matches 2 run function spacedump:game/tick
 execute if score state spacedump matches 3 run function spacedump:end/tick

@@ -9,3 +9,4 @@ gamemode adventure @s
 clear @s
 xp set @s 0
 xp set @s 0 levels
+bossbar set spacedump players @s
