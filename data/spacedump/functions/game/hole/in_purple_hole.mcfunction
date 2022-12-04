@@ -1,7 +1,4 @@
-tp @s[team=Blue] 61 55 61
-tp @s[team=Green] 61 55 -61
-tp @s[team=Orange] -61 55 -61
-playsound minecraft:entity.enderman.hurt master @s
+function spacedump:game/hole/kill
 
 execute if entity @s[team=Blue] run tellraw @a {"text":"","extra":[{"text":"[Space Dump] ","color":"dark_purple","bold":true},{"text":"-5 Points for Blue team !","color":"aqua","bold":true}]}
 execute if entity @s[team=Green] run tellraw @a {"text":"","extra":[{"text":"[Space Dump] ","color":"dark_purple","bold":true},{"text":"-5 Points for Green team !","color":"green","bold":true}]}
