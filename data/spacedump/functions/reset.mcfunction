@@ -56,3 +56,4 @@ summon minecraft:armor_stand 3 24.4 24 {CustomName:'"§3Simon511000"',CustomName
 difficulty hard
 
 scoreboard players set state spacedump 0
+scoreboard players set 20 const 20

@@ -28,3 +28,5 @@ execute if score tuto spacedump matches 1.. run function spacedump:tuto/tick
 execute positioned 0 24.4 8 run particle dust 0.514 0 0.855 1 ~ ~-1 ~ 0.25 0.25 0.25 0 10
 execute positioned 0 22.9 8 as @a[distance=0..0.5] run function spacedump:team_join/join_spectator
 execute as @a[x=0,y=95,z=0,distance=0..2,gamemode=spectator] run function spacedump:team_join/leave_spectator
+
+function spacedump:music/tick
